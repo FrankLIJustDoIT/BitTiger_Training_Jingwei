@@ -1,7 +1,7 @@
 public class Solution {
     int row;
     int col;
-    public int minPathSumDP(int[][] grid) {
+    public int minPathSum_DP(int[][] grid) {
         if(grid == null || grid.length == 0){
             return 0;
         }//corner case
