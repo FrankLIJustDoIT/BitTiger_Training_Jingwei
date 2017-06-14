@@ -1,5 +1,5 @@
 public class Solution {
-    public List<Integer> countSmaller_BST(int[] nums) {
+    public List<Integer> countSmaller_List(int[] nums) {
         List<Integer> res = new ArrayList<>();
         List<Integer> path = new ArrayList<>();
         
