@@ -6,7 +6,7 @@ public class Solution {
         Node left;
         Node right;
         
-        int dupNum = 1;
+        int dupNum  = 1;
         int numLeft = 0;
         int val;
         
