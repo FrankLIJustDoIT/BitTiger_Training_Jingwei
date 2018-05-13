@@ -1,3 +1,5 @@
+//a demo of my 刷题 record
+
 import java.util.*;
 
 public class RandomizedCollection {
