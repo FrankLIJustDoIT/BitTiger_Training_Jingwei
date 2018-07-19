@@ -17,17 +17,20 @@ In the first part of Q2, the task is find out the convex hull for a given set of
 
 In the second part of Q2, the task is given a polygon and a point, determine whether this point locates inside the polygon. The idea here is that we try the line passes p and be horizontal with x-axis, if this line intersects with the polygon with odd intersect points, then it means p locates inside the polygon, otherwise p is in the outside of the this polygon
 
-## Running
+## Demo Running
 
-1. Clone [openpose repo](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
-2. Navigate to your openpose folder
-3. Check the detailed usage instruction by the following scripts:
-
+### Q1
+First, run Q1.jar directly
 ```
-#for teacher behavior recognition
-python behavior_recog_drawing_teacher.py -h
+java -jar /path/to/Q1.jar 
+```
+Then the demo will list 5 different maps, each with a mapID, please choose a map you like by input the corresponding mapID, then you can see how many steps the postman has to take at least to get the word done, and the detail about one shortest path
 
-#for student behavior recognition
-python behavior_recog_drawing_student.py -h
+
+### Q2
+The demo test cases for both two parts of Q2 have been included in the Q2.jar, you can run Q2.jar
+directly to see the test cases details as well as the running result.
+```
+java -jar /path/to/Q2.jar
 ```
 
